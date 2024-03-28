@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+<body>
+
+    <h1>Calculateur IMC</h1>
+
+    <form action="ImcServlet" method="post">
+        <label for="poids">Poids (en kg):</label>
+        <input type="number" id="poids" name="poids" required><br><br>
+
+        <label for="taille">Taille (en m):</label>
+        <input type="number" id="taille" name="taille" step="0.01" required><br><br>
+         
+        <button type="submit">Calculer IMC</button>
+    </form>
+</body>
+</html>
